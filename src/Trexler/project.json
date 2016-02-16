@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "Trexler Class Library",
-  "authors": [ "Sanders" ],
+  "authors": [ "golf1052" ],
   "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "projectUrl": "https://github.com/golf1052/Trexler",
+  "licenseUrl": "https://github.com/golf1052/Trexler/blob/master/LICENSE",
 
   "frameworks": {
     "net451": { },
