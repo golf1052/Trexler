@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Trexler
+namespace golf1052.Trexler
 {
     public static class StringExtension
     {
