@@ -3,14 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EA2C407-CCD3-438E-8A57-874952AADAB4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{517201F4-E298-4BC2-BBF8-06719B8DC9DF}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trexler", "src\Trexler\Trexler.xproj", "{5B96EDFC-5F2F-4804-96EF-45EFFB1C01EA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trexler", "Trexler\Trexler.xproj", "{5B96EDFC-5F2F-4804-96EF-45EFFB1C01EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,8 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5B96EDFC-5F2F-4804-96EF-45EFFB1C01EA} = {8EA2C407-CCD3-438E-8A57-874952AADAB4}
 	EndGlobalSection
 EndGlobal

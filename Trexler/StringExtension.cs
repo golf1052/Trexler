@@ -51,5 +51,10 @@ namespace Trexler
         {
             return new TrexUri(uri).RemoveQueryParams(names);
         }
+
+        public static TrexUri ResetToRoot(this string url)
+        {
+            return new TrexUri(url).ResetToRoot();
+        }
     }
 }

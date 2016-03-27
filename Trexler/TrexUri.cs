@@ -31,6 +31,12 @@ namespace Trexler
             }
             return new TrexUri(uri).AppendPathSegments(segments).ToString();
         }
+        
+        public static string GetRoot(string url)
+        {
+            Uri uri = new Uri(url);
+            return uri.GetComponents(UriComponents.SchemeAndServer | UriComponents.UserInfo, UriFormat.Unescaped);
+        }
 
         public static string DecodeQueryParamValue(string value)
         {
@@ -136,6 +142,13 @@ namespace Trexler
             {
                 QueryParams.Remove(name);
             }
+            return this;
+        }
+
+        public TrexUri ResetToRoot()
+        {
+            Path = GetRoot(Path);
+            QueryParams.Clear();
             return this;
         }
 
