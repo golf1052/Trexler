@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trexler", "Trexler\Trexler.xproj", "{5B96EDFC-5F2F-4804-96EF-45EFFB1C01EA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Trexler", "golf1052.Trexler\Trexler.xproj", "{5B96EDFC-5F2F-4804-96EF-45EFFB1C01EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
