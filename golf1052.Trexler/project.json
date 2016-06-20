@@ -11,7 +11,7 @@
     "netstandard1.5": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-*",
+          "version": "1.0.0-rc2-3002702",
           "type": "platform"
         },
         "Microsoft.CSharp": "4.0.1-rc2-24027",
