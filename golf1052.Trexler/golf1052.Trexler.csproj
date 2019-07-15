@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>Trexler Class Library</Description>
     <Authors>golf1052</Authors>
-    <TargetFrameworks>net451;netstandard1.3</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3</TargetFrameworks>
     <AssemblyName>golf1052.Trexler</AssemblyName>
     <PackageId>golf1052.Trexler</PackageId>
     <PackageProjectUrl>https://github.com/golf1052/Trexler</PackageProjectUrl>
